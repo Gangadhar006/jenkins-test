@@ -38,5 +38,4 @@
 		</plugins>
 		<finalName>Docker-App</finalName>
 	</build>
-
 </project>
