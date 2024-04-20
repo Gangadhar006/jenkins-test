@@ -8,7 +8,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 public class DockerApplication {
 
-    private static final Logger logger = LoggerFactory.getLogger(this.getClass());
+    private static final Logger logger = LoggerFactory.getLogger(DockerApplication.class);
 
     public static void main(String[] args) {
         SpringApplication.run(DockerApplication.class, args);
