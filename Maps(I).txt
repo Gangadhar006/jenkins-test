@@ -1,0 +1,49 @@
+
+MAP(I):
+
+# MAP interface is an independent interface.
+# Combination of keys and values are map or map is a collection of entries.
+# Map is an interface, which is implemented by hashmap and hashtble class.
+
+# When we have more number of search operations, then we can go for hashmap.
+
+HahMap:
+
+* Undrelying data structure is Hashtable.
+* It does not follow insertion order
+* Duplicate keys are not allowed
+* Duplicate values can be allowed
+* null key allowed only once
+* null values can be stored multiple times
+
+Methods:
+
+1) put(k,v) = for inserting
+2) putAll(c) = for inserting group of elements
+
+3) get(k) = for retrieving, it will return value based on the key
+4) remove(k) = for deleting, it will remove entire record
+
+5) contains(k) = it will return true or false. it will only search for key.
+6) contains(v) =  it will return true or false. it will only search for value.
+
+7) isEmty()
+8)size()
+
+9)clear() = it will clear all entries
+
+
+
+1) m.keySet() = it will return all keys from the hashmap.
+2) m.values() = it will return all values from the hashmap
+3) m.entrySet() = it will return each entry(pair) from the hashmap. 
+
+Entry interface:
+
+# it ia a subset of hashmap class.
+
+methods in entry interface:
+
+1) e.getkey()
+2) e.getvalue()
+3) e.setvalue()
